@@ -7,8 +7,7 @@ Camera calibration and distortion correction by using opencv
 <img width="450" alt="checkerboard" src="https://github.com/hyotaime/opencv-camera-calibration/assets/109580929/bdfa8996-654f-43a0-9c73-0362247e451a">
 
 ## Camera Calibration Input Video
-
-https://github.com/hyotaime/opencv-camera-calibration/assets/109580929/fb29cc03-344f-4521-821c-102928fa84a0
+![test_video.gif](test_video.gif)
 
 ## Camera Calibration Result
 
@@ -26,8 +25,12 @@ https://github.com/hyotaime/opencv-camera-calibration/assets/109580929/fb29cc03-
   | 2.74755274e-01 | -1.23648857e+00 | 6.93900545e-04 | 2.07391502e-03 | 1.84649263e+00 |
 
 ## Distortion Correction Result
+![distortion_corrected.gif](distortion_corrected.gif)
 
-https://github.com/hyotaime/opencv-camera-calibration/assets/109580929/d0212e7e-b244-4fa1-b0bf-20446900eb54
+## Limitation
+* Before the recording, I fix the focus and exposure by tapping the screen so there is no focus/exposure change during the recording
+* Test video is taken by an iPhone 13 Pro Max
+* Nowadays, smartphone cameras have few distortion, so the result is not so impressive
 
 ## References
 * [mint-lab/cv-tutorial](https://github.com/mint-lab/cv_tutorial)
